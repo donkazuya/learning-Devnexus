@@ -8,17 +8,16 @@
     padding: 0 20px 20px 20px;
     background-color: #8f2faf;
     color: #f1f1f1;
+    p {
+        margin-bottom: 2.5em;
+        max-width: 1000px;
+    }
+    .botao {
+        background-color: #f1f1f1;
+        color: #4d4d4d;
+    }
 }
 
-#sobre p {
-    margin-bottom: 2.5em;
-    max-width: 1000px;
-}
-
-#sobre .botao {
-    background-color: #f1f1f1;
-    color: #4d4d4d;
-}
 
 /*SERVIÇOS*/
 
@@ -27,16 +26,15 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+    div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: 30px;
+    }
 }
 
-#servicos div {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    margin-top: 30px;
-}
 
 /*PORTIFÓLIO*/
 
@@ -44,15 +42,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 20px
-}
-
-#portifolio h2 {
-    margin-bottom: 20px;
-}
-
-#portifolio img {
-    width: 85%
+    padding-top: 20px;
+    h2 {
+        margin-bottom: 20px;
+    }
+    img {
+        width: 85%;
+        max-height: 250px;
+    }
 }
 
 /*CONTATO*/
@@ -62,9 +59,9 @@
     align-items: center;
     text-align: center;
     padding: 20px;
+    img {
+        width: 60%;
+    }
 }
 
-#contato img {
-    width: 60%;
-}
 

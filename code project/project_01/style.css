@@ -29,9 +29,8 @@ header {
   align-items: center;
   text-align: center;
   padding: 20px; }
-
-header p {
-  margin-bottom: 2em; }
+  header p {
+    margin-bottom: 2em; }
 
 /*NAVEGAÇÃO*/
 nav {
@@ -39,31 +38,27 @@ nav {
   flex-direction: column;
   align-items: center;
   background-color: #4d4d4d; }
-
-nav > a {
-  text-decoration: none;
-  color: #f1f1f1;
-  font-weight: 28px;
-  font-family: pacifico, serif; }
-
-nav ul {
-  list-style: none;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%; }
-
-nav ul li {
-  width: 100%;
-  text-align: center; }
-
-nav ul li a {
-  display: inline-block;
-  padding: 10px 0;
-  width: 100%;
-  text-decoration: none;
-  color: #f1f1f1; }
+  nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%; }
+    nav ul li {
+      width: 100%;
+      text-align: center; }
+      nav ul li a {
+        display: inline-block;
+        padding: 10px 0;
+        width: 100%;
+        text-decoration: none;
+        color: #f1f1f1; }
+  nav > a {
+    text-decoration: none;
+    color: #f1f1f1;
+    font-weight: 28px;
+    font-family: pacifico, serif; }
 
 /*SOBRE*/
 #sobre {
@@ -74,14 +69,12 @@ nav ul li a {
   padding: 0 20px 20px 20px;
   background-color: #8f2faf;
   color: #f1f1f1; }
-
-#sobre p {
-  margin-bottom: 2.5em;
-  max-width: 1000px; }
-
-#sobre .botao {
-  background-color: #f1f1f1;
-  color: #4d4d4d; }
+  #sobre p {
+    margin-bottom: 2.5em;
+    max-width: 1000px; }
+  #sobre .botao {
+    background-color: #f1f1f1;
+    color: #4d4d4d; }
 
 /*SERVIÇOS*/
 #servicos {
@@ -89,13 +82,12 @@ nav ul li a {
   display: flex;
   flex-direction: column;
   align-items: center; }
-
-#servicos div {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  margin-top: 30px; }
+  #servicos div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px; }
 
 /*PORTIFÓLIO*/
 #portifolio {
@@ -103,12 +95,11 @@ nav ul li a {
   flex-direction: column;
   align-items: center;
   padding-top: 20px; }
-
-#portifolio h2 {
-  margin-bottom: 20px; }
-
-#portifolio img {
-  width: 85%; }
+  #portifolio h2 {
+    margin-bottom: 20px; }
+  #portifolio img {
+    width: 85%;
+    max-height: 250px; }
 
 /*CONTATO*/
 #contato {
@@ -117,9 +108,8 @@ nav ul li a {
   align-items: center;
   text-align: center;
   padding: 20px; }
-
-#contato img {
-  width: 60%; }
+  #contato img {
+    width: 60%; }
 
 footer {
   display: flex;
@@ -136,10 +126,9 @@ footer {
   nav {
     flex-direction: row;
     justify-content: space-around; }
-
-  nav ul {
-    flex-direction: row;
-    width: 70%; }
+    nav ul {
+      flex-direction: row;
+      width: 70%; }
 
   /*CABEÇALHO*/
   header {
@@ -161,28 +150,24 @@ footer {
     align-items: flex-start;
     max-width: 1000px;
     margin: 0 auto; }
-
-  #servicos h2 {
-    text-align: center;
-    width: 100%; }
-
-  #servicos div {
-    flex-grow: 1;
-    flex-basis: 50px;
-    padding: 0 10px; }
+    #servicos h2 {
+      text-align: center;
+      width: 100%; }
+    #servicos div {
+      flex-grow: 1;
+      flex-basis: 50px;
+      padding: 0 10px; }
 
   /*PORTIFOLIO*/
   #portifolio {
     flex-direction: row;
     flex-wrap: wrap; }
-
-  #portifolio h2 {
-    width: 100%;
-    text-align: center; }
-
-  #portifolio img {
-    width: 33.33333333333%;
-    /* max-height: */ }
+    #portifolio h2 {
+      width: 100%;
+      text-align: center; }
+    #portifolio img {
+      width: 33.33%;
+      /* max-height: */ }
 
   /*CONTATOS*/
   #contato {
@@ -191,7 +176,6 @@ footer {
     justify-content: space-around;
     max-width: 500px;
     margin: 0 auto; }
-
-  #contato h2, #contato p {
-    width: 100%;
-    text-align: center; } }
+    #contato h2, #contato p {
+      width: 100%;
+      text-align: center; } }
