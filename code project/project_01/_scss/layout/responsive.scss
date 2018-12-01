@@ -1,0 +1,80 @@
+/*MEDIA QUERIES*/
+
+@media screen and (min-width: 768px) {
+    /*NAVEGAÇÃO*/
+        nav {
+            flex-direction: row;
+            justify-content: space-around;
+        }
+        
+        nav ul {
+            flex-direction: row;
+            width: 70%;
+        }
+    
+    /*CABEÇALHO*/
+        header {
+            height: 750px;
+            height: 75vh;
+            justify-content: center;
+        }
+        
+    /*SOBRE*/
+        #sobre {
+            height: 200px;
+            height: 20vh;
+            justify-content: center;
+            min-height: 200px
+        }
+    
+    /*SERVIÇOS*/
+        #servicos  {
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: flex-start;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        
+        #servicos h2 {
+            text-align: center;
+            width: 100%;
+        }
+        
+        #servicos div {
+            flex-grow: 1;
+            flex-basis: 50px;
+            padding: 0 10px;
+        }
+        
+    /*PORTIFOLIO*/
+        
+        #portifolio {
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+        
+        #portifolio h2 {
+            width: 100%;
+            text-align: center;
+        }
+        
+        #portifolio img {
+            width: 33.33333333333%;
+           /* max-height: */
+        }
+        
+    /*CONTATOS*/
+        #contato {
+        flex-direction:row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        max-width: 500px;
+        margin: 0 auto;
+        }
+        
+        #contato h2, #contato p {
+            width: 100%;
+            text-align: center;
+        }
+    }
