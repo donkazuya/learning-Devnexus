@@ -15,10 +15,14 @@ header {
         margin-bottom: 2em;
     }
     .botao{
+        transition: 1s ease all;
+            -webkit-transition: 1s ease all;
+            -moz-transition: 1s ease all;
+            -ms-transition: 1s ease all;
+            -o-transition: 1s ease all;
         &:hover{
             background-color: $cor-cinza;
             
-        }
+            }
     }
 }
- 
