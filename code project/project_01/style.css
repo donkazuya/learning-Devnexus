@@ -31,6 +31,8 @@ header {
   padding: 20px; }
   header p {
     margin-bottom: 2em; }
+  header .botao:hover {
+    background-color: #f1f1f1; }
 
 /*NAVEGAÇÃO*/
 nav {
